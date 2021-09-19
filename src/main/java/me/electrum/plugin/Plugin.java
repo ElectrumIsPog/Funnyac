@@ -8,6 +8,7 @@ public class Plugin extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new MoveListener(), this);
+        
     }
 
     @Override

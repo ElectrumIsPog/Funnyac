@@ -29,7 +29,7 @@
     </dependencies>
 
     <build>
-        <finalName>CockESP</finalName>
+        <finalName>Funnyac</finalName>
         <defaultGoal>clean install package</defaultGoal>
         <resources>
             <resource>
