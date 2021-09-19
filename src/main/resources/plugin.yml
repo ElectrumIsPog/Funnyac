@@ -1,0 +1,3 @@
+name: cockesp
+main: me.electrum.plugin.Plugin
+version: 1.0
