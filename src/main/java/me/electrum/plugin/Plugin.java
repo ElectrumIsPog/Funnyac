@@ -12,7 +12,7 @@ public class Plugin extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        getLogger().info("niggers suck");
+        getLogger().info("I am not racist!");
     }
 
 }
