@@ -32,7 +32,7 @@ public class MoveListener implements Listener {
                     Float.MAX_VALUE, Collections.EMPTY_LIST,
                     new Vec3D(Float.MAX_VALUE, Float.MAX_VALUE, Float.MAX_VALUE)));
         }
-        if (hypot > 1 && ticks++ > 5 ) {
+        if (hypot > 0.8 && ticks++ > 5 ) {
             event.getPlayer().kickPlayer(String.format("FLAGGED L %s", hypot));
         }
     }
